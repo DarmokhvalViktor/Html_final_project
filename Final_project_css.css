@@ -1,25 +1,21 @@
 body {
     margin: 0;
-    box-sizing: border-box;
     background-color: black;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 #first_page {
-    width: 100vw;
     background-color: black;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 #first_page_upper_text {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
-    box-sizing: border-box;
 }
 #first_page_upper_text a {
     text-decoration: none;
@@ -35,11 +31,10 @@ body {
     color: black;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    box-sizing: border-box;
     transition: 1s;
 }
 #solana_and_nav {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: #000000;
     display: flex;
@@ -59,7 +54,7 @@ body {
     font-size: 17px;
     color: #848895;
     font-family: Helvetica, sans-serif;
-    line-height: 27.3px;
+    line-height: 27px;
 }
 #first_page_navigation_text>a :hover {
     transform: scale(1.1);
@@ -76,16 +71,16 @@ body {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 70px;
-    line-height: 75.6px;
-    letter-spacing: 0.68px;
+    line-height: 75px;
+    letter-spacing: 1px;
     margin: 0;
 }
 #fp_fast_for_everyone {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 68px;
-    line-height: 75.6px;
-    letter-spacing: 0.68px;
+    line-height: 75px;
+    letter-spacing: 1px;
     margin: 0 0 55px 0;
 }
 #fp_bring_blockchain {
@@ -93,7 +88,7 @@ body {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 21px;
-    line-height: 27.3px;
+    line-height: 27px;
     margin-bottom: 48px;
 }
 .fp_button_text {
@@ -152,10 +147,8 @@ body {
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16.8px;
-    letter-spacing: 0.8px;
+    line-height: 16px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
@@ -166,9 +159,7 @@ body {
 
 
 #second_page {
-    width: 100vw;
     background-color: #000000;
-    box-sizing: border-box;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -176,7 +167,6 @@ body {
     margin: 0;
 }
 #sp_left_block {
-    box-sizing: border-box;
     width: 330px;
     margin-left: 430px;
     height: 573px;
@@ -187,71 +177,38 @@ body {
     height: 700px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
     margin-left: 220px;
 }
-#sp_left_block_join_a_community {
-    width: 316px;
+.sp_left_block_join_a_community {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 38px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
-    letter-spacing: 1px;
-    margin: 0;
-}
-#sp_left_block_of_millions {
-    width: 180px;
-    color: #FFF;
-    font-family: Helvetica, sans-serif;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
-    letter-spacing: 1px;
-    margin: 0;
-}
-#sp_left_block>#sp_left_block_of_millions>span {
-    width: 10px;
-    color: #FFF;
-    font-family: Helvetica, sans-serif;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 0;
 }
 #sp_right_block_top_upper_text {
-    width: 333px;
     font-family: Helvetica, sans-serif;
     font-size: 101px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 132px;
     background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
 }
-#sp_right_block_top_bottom_text {
-    width: 149px;
+.sp_right_block_small_text {
     color: #C4C4C4;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
+    line-height: 27px;
     text-transform: uppercase;
+}
+#sp_right_block_top_bottom_text {
     margin: 0 0 45px 0;
 }
 #sp_right_block_middle_upper_text {
-    width: 296px;
     font-family: Helvetica, sans-serif;
     font-size: 106px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 132px;
     background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
     -webkit-background-clip: text;
@@ -259,22 +216,11 @@ body {
     margin: 0;
 }
 #sp_right_block_middle_bottom_text {
-    width: 108px;
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 45px 0;
 }
 #sp_right_block_bottom_upper_text {
-    width: 476px;
     font-family: Helvetica, sans-serif;
     font-size: 110px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 132px;
     background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
     -webkit-background-clip: text;
@@ -282,22 +228,12 @@ body {
     margin: 0;
 }
 #sp_right_block_bottom_bottom_text {
-    width: 275px;
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 144px 0;
 }
 
 
 #third_page {
-    width: 100vw;
     background-color: black;
-    box-sizing: border-box;
     display: flex;
     gap: 5vw;
     margin-top: 50px;
@@ -307,24 +243,18 @@ body {
     margin-left: 400px;
 }
 #tp_left_block_made_for {
-    width: 200px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 20px 20px 0 0;
 }
 #tp_left_block_mass_adoption {
-    width: 300px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 38px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -332,9 +262,7 @@ body {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -342,8 +270,6 @@ body {
     color: #C4C4C4;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 16px;
     text-transform: uppercase;
 }
@@ -357,45 +283,37 @@ body {
     border-radius: 24px;
     background: rgba(0, 0, 0, 0.28);
 }
-
-#tp_middle_box_upper_block_fast {
-    width: 57px;
-    color: #FFF;
-    font-family: Helvetica, sans-serif;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.04px;
-    margin: 20px 0 10px 10px;
-}
-#tp_middle_box_upper_block_dont_keep {
-    width: 250px;
+.tp_all_small_text_class_helvetica {
     color: #C4C4C4;
     font-family: Helvetica, sans-serif;
     font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    margin: 10px 0 10px 10px;
+    line-height: 27px;
 }
-#tp_middle_box_upper_block_numbers {
-    width: 74px;
+.tp_all_small_text_class_roboto{
+    color: #C4C4C4;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+#tp_middle_box_upper_block_fast {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
+    line-height: 33px;
+    margin: 20px 0 10px 10px;
+}
+#tp_middle_box_upper_block_dont_keep {
+    margin: 10px 0 10px 10px;
+}
+#tp_middle_box_upper_block_numbers {
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
     line-height: 28px;
     margin: 20px 0 10px 10px;
 }
 #tp_middle_box_upper_block_transactions_per_second {
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 10px 10px;
 }
 #tp_middle_box_bottom_block {
@@ -407,44 +325,23 @@ body {
     backdrop-filter: blur(10px);
 }
 #tp_middle_box_bottom_block_scalable {
-    width: 108px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.04px;
+    line-height: 33px;
     margin: 20px 0 10px 10px;
 }
 #tp_middle_box_bottom_block_get_big {
-    width: 263px;
-    color: #C4C4C4;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
     margin: 0 0 10px 10px;
 }
 #tp_middle_box_bottom_block_numbers {
-    width: 199px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
     margin: 25px 0 10px 10px;
 }
 #tp_middle_box_bottom_total_transactions {
-    width: 177px;
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 10px 15px;
 }
 #tp_right_box_upper_block {
@@ -457,44 +354,24 @@ body {
     margin-top: -50px;
 }
 #tp_right_box_upper_block_decentralized {
-    width: 171.551px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.04px;
+    line-height: 33px;
     margin: 0 0 20px 20px;
 }
 #tp_right_box_upper_block_the_solana {
-    width: 270px;
-    color: #C4C4C4;
-    font-family: Helvetica, sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
     margin: 0 0 20px 20px;
 }
 #tp_right_box_upper_block_decentralized_numbers {
-    width: 63px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
     margin: 20px 0 10px 20px;
 }
 #tp_right_box_upper_block_validator_nodes {
-    width: 147px;
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 20px 20px;
 }
 #tp_right_box_bottom_block {
@@ -506,59 +383,36 @@ body {
     backdrop-filter: blur(10px);
 }
 #tp_right_box_bottom_block_energy_efficient {
-    width: 201px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.04px;
+    line-height: 33px;
     margin: 20px 0 20px 20px;
 }
 #tp_right_box_bottom_block_solana_proof {
-    width: 267px;
-    color: #C4C4C4;
-    font-family: Helvetica, sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
     margin: 0 0 20px 20px;
 }
 #environment_link {
     color: #19FB9B;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
+    line-height: 27px;
     text-decoration-line: underline;
 }
 #tp_right_box_bottom_block_zero_percent {
-    width: 39px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 28px;
     margin: 0 0 20px 20px;
 }
 #tp_right_box_bottom_block_net_carbon_impact {
-    width: 168px;
-    color: #C4C4C4;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
-    text-transform: uppercase;
     margin: 0 0 20px 20px;
 }
 
 
 #forth_page {
-    width: 100vw;
     display: flex;
     background-color: black;
     flex-direction: column;
@@ -573,14 +427,11 @@ body {
     align-items: center;
 }
 #fp_4_upper_box_text {
-    width: 299px;
     flex-shrink: 0;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 39px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
 }
 #fp_4_upper_box_nav {
@@ -613,6 +464,9 @@ body {
     transition: 1s;
     background: goldenrod;
 }
+.fp_4_buttons p:hover {
+    color: green;
+}
 #fp_defi {
     width: 62px;
     height: 48px;
@@ -638,9 +492,7 @@ body {
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
+    line-height: 27px;
     margin: 10px 14px 10px 14px;
 }
 #fp_4_middle_image_and_text {
@@ -665,22 +517,22 @@ body {
     border-radius: 0 12px 12px 0;
 }
 #fp_4_middle_right_box_text {
-    width: 439px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
+    line-height: 27px;
 }
 #fp_4_middle_right_box_link_learn_more {
     color: #A962FF;
     font-family: Helvetica, sans-serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.3px;
+    line-height: 27px;
     text-decoration: none;
+}
+#fp_4_middle_right_box_link_learn_more :hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: green;
 }
 #fp_4_bottom_icons {
     margin-top: 20px;
@@ -695,7 +547,6 @@ body {
 }
 
 #fifth_page {
-    width: 100vw;
     display: flex;
     background-color: #000000;
     flex-direction: column;
@@ -711,13 +562,12 @@ body {
     column-gap: 40px;
 }
 #fp_5_header_text>p {
-    width: 469px;
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
 }
 #fp_5_middle_box_first_block_text>h2{
@@ -727,7 +577,7 @@ body {
     font-size: 37px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -738,7 +588,7 @@ body {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15.36px;
+    line-height: 15px;
     text-transform: uppercase;
 }
 #fp_5_middle_box_first_block_text {
@@ -782,7 +632,7 @@ body {
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
     margin: 0;
 }
@@ -812,7 +662,7 @@ body {
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
 }
 #fp_5_middle_box_fifth_block_text {
@@ -842,7 +692,7 @@ body {
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    line-height: 46.2px;
+    line-height: 46px;
     letter-spacing: 1px;
 }
 #fp_5_bottom_button {
@@ -856,7 +706,10 @@ body {
     margin-top: -20px;
     transition: 1s;
 }
-#fp_5_bottom_button>p {
+#fp_5_bottom_button>a {
+    text-decoration: none;
+}
+#fp_5_bottom_button>a>p {
     color: #FFF;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -870,7 +723,7 @@ body {
     background: gold;
     transition: 1s;
 }
-#fp_5_bottom_button>p:hover {
+#fp_5_bottom_button>a>p:hover {
     color: green;
 }
 #sixth_page {
@@ -886,7 +739,7 @@ body {
     display: flex;
     width: 334px;
     height: 221px;
-    padding: 0.219px 0 49.359px 0;
+    padding: 1px 0 49px 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
@@ -897,7 +750,7 @@ body {
     color: #FFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    line-height: 27.3px;
+    line-height: 27px;
     margin: 0;
 }
 #sp_6_left_box_apps_icons {
@@ -919,7 +772,7 @@ body {
     color: #848895;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 27.3px;
+    line-height: 27px;
 }
 #sp_6_right_box {
     display: flex;
@@ -931,7 +784,7 @@ body {
     color: #FFF;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 18.72px;
+    line-height: 18px;
     text-transform: uppercase;
 }
 #sp_6_right_box a{
@@ -946,7 +799,7 @@ body {
     color: #848895;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 27.3px;
+    line-height: 27px;
     transition: 1s;
 }
 #sp_6_right_box_right_column_language_box {
@@ -958,6 +811,3 @@ body {
     color: #848895;
     border: none;
 }
-
-/*    too small icons on page 6*/
-/*    how to change color of text inside of button on "hover" if hovering above button, not text?*/
